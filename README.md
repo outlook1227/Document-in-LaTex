@@ -1,1 +1,1 @@
-# Document-in-LaTex
+# Document in LaTex
