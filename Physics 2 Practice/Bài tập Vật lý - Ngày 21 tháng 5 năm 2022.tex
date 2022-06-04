@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+\usepackage[left = 15mm, right = 15mm, top = 0.25in, bottom = 0.25in, a4paper, inner=1.5cm, outer=3cm, top=2cm,
+bottom=3cm, bindingoffset=1cm] {geometry}
+\usepackage{amssymb}
+\usepackage{fibnum}
+\usepackage{vntex}
+\title{{\sffamily Bài tập Thực hành VLKT 2}}
+\author{{\sffamily Đỗ Đức Tiến}}
+\date{{\sffamily Ngày 21 tháng 5 năm 2022}}
+
+\begin{document}
+	\maketitle
+	\section{{\sffamily Vận tốc sóng âm theo thực nghiệm}}
+	\subsection{{\sffamily Bảng 1:}}
+	{\sffamily Từ số liệu ở Bảng 1 với:} \[{f_1} = 2850Hz\]
+	\[{\lambda _1} = \overline {{\lambda _1}}  + \Delta \overline {{\lambda _1}}  = 124.40 \pm 2.08 (mm)\]
+	{{\sffamily Giá trị vận tốc v1:}}
+	\[\overline {{v_1}}  = \overline {{\lambda _1}} .{f_1} = 124.4*{10^{ - 3}}*2850 = 354.54(m/s)\]
+	{{\sffamily Từ đó chúng ta biến đổi biểu thức:}}
+	\[\ln {v_1} = \ln {\lambda _1} + \ln {f_1} \to \frac{{d{v_1}}}{{{v_1}}} = \frac{{d{\lambda _1}}}{{{\lambda _1}}} \to \left| {\frac{1}{{{v_1}}}} \right|*\Delta \overline {{v_1}}  = \left| {\frac{1}{{{\lambda _1}}}} \right|*\Delta \overline {{\lambda _1}} \]
+	{{\sffamily Tính được tỉ lệ sai số:}}
+	\[\delta  = \frac{{\Delta \overline {{v_1}} }}{{\overline {{v_1}} }} = \frac{{2.08}}{{124.40}} \approx 0.0167 \approx 1.67\% \]
+	\[\Delta \overline {{v_1}}  = \overline {{v_1}} .\delta  = 354.54*0.0167 \approx 5.92(m/s)\]
+	{{\sffamily Ta suy ra được kết quả của v1 là:}}
+	\[ \to {v_1} = \overline {{v_1}}  \pm \Delta \overline {{v_1}}  = 354.54 \pm 5.92(m/s)\]
+	\subsection{{\sffamily Bảng 2:}}
+	{\sffamily Từ số liệu ở Bảng 2 với:} \[{f_2} = 3250Hz\]
+	\[{\lambda _1} = \overline {{\lambda _2}}  + \Delta \overline {{\lambda _2}}  = 110.80 \pm 1.76 (mm)\]
+	{{\sffamily Giá trị vận tốc v2:}}
+	\[\overline {{v_2}}  = \overline {{\lambda _2}} .{f_2} = 110.80*{10^{ - 3}}*3250 = 360.10(m/s)\]
+	{{\sffamily Từ đó chúng ta biến đổi biểu thức:}}
+	\[\ln {v_2} = \ln {\lambda _2} + \ln {f_2} \to \frac{{d{v_2}}}{{{v_2}}} = \frac{{d{\lambda _2}}}{{{\lambda _2}}} \to \left| {\frac{1}{{{v_2}}}} \right|*\Delta \overline {{v_2}}  = \left| {\frac{1}{{{\lambda _2}}}} \right|*\Delta \overline {{\lambda _2}} \]
+	{{\sffamily Tính được tỉ lệ sai số:}}
+	\[\delta  = \frac{{\Delta \overline {{v_2}} }}{{\overline {{v_2}} }} = \frac{{1.76}}{{110.80}} \approx 0.0159 \approx 1.59\% \]
+	\[\Delta \overline {{v_2}}  = \overline {{v_2}} .\delta  = 360.10*0.0159 \approx 5.73(m/s)\]
+	{{\sffamily Ta suy ra được kết quả v2 là:}}
+	\[ \to {v_2} = \overline {{v_2}}  \pm \Delta \overline {{v_2}}  = 360.10 \pm 5.73(m/s)\]
+	\subsection{{\sffamily Giá trị của v theo v1 và v2:}}
+	{\sffamily Ta tính được vân tốc trung bình của v1 và v2: }
+	\[\overline v  = \frac{{\overline {{v_1}}  + \overline {{v_2}} }}{2} = \frac{{354.54 + 360.10}}{2} = 357.32(m/s)\]
+	{\sffamily Tính được Delta v cho v1 và v2 và sai số:}
+	\[\Delta \overline v  = \frac{{\Delta \overline {{v_1}}  + \Delta \overline {{v_2}} }}{2} = \frac{{5.92 + 5.73}}{2} = 5.825 \to \delta  = \frac{{\Delta \overline v }}{{\overline v }} = \frac{{5.825}}{{357.32}} \approx 0.0163 \approx 1.63\% \]
+	{\sffamily Ta có kết quả:}
+	\[ \to {v} = \overline {{v}}  \pm \Delta \overline {{v}}  = 357.32 \pm 5.825(m/s)\]
+	\section{{\sffamily Vận tốc sóng âm theo lý thuyết}}
+	{\sffamily Theo thuyết đàn hồi ta có công thức: }
+	\[v = {v_0}\sqrt {1 + \frac{t}{{273}}} \]
+	{{\sffamily Với:}}
+	\[{v_0} = 331.45(m/s)\]
+	{\sffamily Theo kết quả đọc nhiệt độ, với nhiệt độ là 30 độ C, bỏ qua sai số ta có kết quả:}
+	\[v = {v_0}\sqrt {1 + \frac{t}{{273}}}  = 331.45*\sqrt {1 + \frac{{30}}{{273}}}  \approx 349.19(m/s)\]
+	{{\sffamily Tổng kết: }}
+	{{\sffamily Với giá trị v thực nghiệm là: 357.32 (m/s) và giá trị v lý thuyết là: 349.19(m/s)}}
+	{{\sffamily Ta có độ chênh lệch:}}
+	\[\Delta v = 357.32 - 349.19 = 8.13(m/s)\]
+	\section{{\sffamily Nhận xét: }}
+	{{\sffamily - Kết quả tính toán của vận tốc thí nghiệm so với vận tốc theo lý thuyết có độ sai số nhất định nên kết quả vẫn chưa phù hợp}}\\
+	{{\sffamily - Nguyên nhân sai số có 2 lý do:}}\\
+	{{\sffamily + Do người đo: Thực hiện mức độ điều chỉnh chưa phù hợp, ví dụ là điều chỉnh micro đi tìm nút sóng, do người làm chỉ ước lượng điểm nút thông qua "đường gần như là thẳng" trên dao động điện tử nên có sai sót nhất định!}}\\
+	{{\sffamily + Sai số của dụng cụ đo, ví du: thước thẳng}}
+	
+\end{document}
